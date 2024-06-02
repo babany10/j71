@@ -1,0 +1,180 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('k3-1.jpg'); /* замените 'header_bg.jpg' на путь к вашему изображению */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 50px; /* увеличим размер текста */
+    text-shadow: 4px 4px 4px  #000; /* добавляем чёрную окантовку */
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px  #000;
+}
+
+header nav ul li a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+header nav ul li a:hover::after {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Специфические стили для страницы новинок */
+section {
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #FFD700; /* жёлтый */
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    background-image: url('footer.jpg');
+    text-align: center;
+}
+.new-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.new-item {
+    width: 48%; /* Устанавливаем ширину элемента */
+    margin-bottom: 20px; /* Добавляем небольшое расстояние между элементами */
+    display: flex;
+}
+.new-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new-item {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+}
+
+.new-item:nth-child(odd) {
+    margin-left: 1000px; /* Левый отступ для элементов с четным индексом */
+}
+
+.new-item:nth-child(even) {
+    
+    margin-right: 1000px; /* Правый отступ для элементов с нечетным индексом */
+}
+.new-item img{
+    width: 400px;
+    height: 400px;
+}
+  .ramka11{
+    position: relative;
+    width: 1700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-decoration: none;
+  }
+  .ramka1{
+    box-shadow: 0 4px 10px rgba(76, 80, 94, 0.1);
+    border-radius: 13px;
+    background-image: url('blue.jpg');
+    padding: 2px;
+    width: 1300px;
+    height: 350px;
+    margin-top:  20px;
+    transition: 0.3s all;
+    display: flex;
+    margin-left: 175px;
+  }
+
+  .ramka-img1{
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    vertical-align: middle;
+    margin-left: 28px;
+    border: 0;
+  
+  
+  }
+  .ramka-img1 img{
+    height: 325px;
+    width: 325px;
+    border-radius: 20px;
+  }
+  .txt{
+    width: 900px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+#novinki{
+    background-image: url('nebo.jpg');
+    background-size: 100% 100%;
+    padding: 30px 0;
+}
+main{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+h2{
+    margin: 0;
+}
+section{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+#new {
+    background-image: url('purpule.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center; /* Добавляем выравнивание текста по центру */
+    font-size: 20px;
+}

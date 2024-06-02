@@ -1,0 +1,96 @@
+/* Стили для формы бронирования */
+.booking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.booking-info {
+    flex: 1;
+    text-align: center;
+}
+
+.booking-info img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#booking-form {
+    flex: 1;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#booking-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ff5252;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="tel"]:focus,
+.form-group input[type="date"]:focus,
+.form-group input[type="time"]:focus,
+.form-group input[type="number"]:focus {
+    border-color: #ff5252;
+    outline: none;
+}
+
+.booking-button {
+    background-color: #ff5252;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.booking-button:hover {
+    background-color: #e63946;
+}
+.booking-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+img{
+    width: 750px;
+    height: 450px;
+}
+section{
+    background-image: url(foN.jpg);
+    background-size: 100% 100%;
+}

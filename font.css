@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Krasivo1';
+    src: url(fonts/Windows/BebasNeue\ Book.ttf);
+}@font-face {
+    font-family: 'Krasivo2';
+    src: url(fonts/Windows/BebasNeue\ Light.otf);
+}
+@font-face {
+    font-family: 'Krasivo3';
+    src: url(fonts/Windows/shrift2.otf);
+}
+@font-face {
+    font-family: 'Krasivo4';
+    src: url(fonts/Windows/Golos-Text_Medium.ttf);
+}@font-face {
+    font-family: 'Krasivo5';
+    src: url(fonts/Windows/Golos-Text_DemiBold.ttf);
+}
+@font-face {
+    font-family: 'Krasivo6';
+    src: url(fonts/Windows/shrift2.otf);
+}
+h1,h2,h3{
+    font-family: 'Krasivo5';
+}
+p,a,div,span{
+    font-family: 'Krasivo4';
+}
+header nav ul li a {     
+    -webkit-box-shadow: 2px 14px 32px 0px rgba(34, 60, 80, 0.79);
+    -moz-box-shadow: 2px 14px 32px 0px rgba(34, 60, 80, 0.79);
+    box-shadow: 2px 14px 32px 0px rgba(34, 60, 80, 0.79);
+    display: inline-block;
+    padding: 5px 10px; /* Отступы вокруг слова */
+    color: #fff; /* Цвет текста */
+    border: 2px solid #14011d; /* Толщина и цвет рамки */
+    border-radius: 5px; /* Округление углов рамки */
+ }
